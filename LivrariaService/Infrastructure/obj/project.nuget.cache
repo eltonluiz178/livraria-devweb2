@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "bVuM4qDxZcQ=",
+  "dgSpecHash": "1E3TXstBdpI=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Usuario\\Desktop\\Maracutaia\\Pessoal\\Service\\LivrariaService\\Infrastructure\\Infrastructure.csproj",
+  "projectFilePath": "C:\\Users\\Usuario\\Desktop\\Maracutaia\\Pessoal\\livraria-devweb2\\LivrariaService\\Infrastructure\\Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Usuario\\.nuget\\packages\\dapper\\2.1.66\\dapper.2.1.66.nupkg.sha512"
   ],

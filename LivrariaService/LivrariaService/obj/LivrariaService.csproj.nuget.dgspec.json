@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Usuario\\Desktop\\Maracutaia\\Pessoal\\Service\\LivrariaService\\LivrariaService\\LivrariaService.csproj": {}
+    "C:\\Users\\Usuario\\Desktop\\Maracutaia\\Pessoal\\livraria-devweb2\\LivrariaService\\LivrariaService\\LivrariaService.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Usuario\\Desktop\\Maracutaia\\Pessoal\\Service\\LivrariaService\\LivrariaService\\LivrariaService.csproj": {
+    "C:\\Users\\Usuario\\Desktop\\Maracutaia\\Pessoal\\livraria-devweb2\\LivrariaService\\LivrariaService\\LivrariaService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\Maracutaia\\Pessoal\\Service\\LivrariaService\\LivrariaService\\LivrariaService.csproj",
+        "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\Maracutaia\\Pessoal\\livraria-devweb2\\LivrariaService\\LivrariaService\\LivrariaService.csproj",
         "projectName": "LivrariaService",
-        "projectPath": "C:\\Users\\Usuario\\Desktop\\Maracutaia\\Pessoal\\Service\\LivrariaService\\LivrariaService\\LivrariaService.csproj",
+        "projectPath": "C:\\Users\\Usuario\\Desktop\\Maracutaia\\Pessoal\\livraria-devweb2\\LivrariaService\\LivrariaService\\LivrariaService.csproj",
         "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Usuario\\Desktop\\Maracutaia\\Pessoal\\Service\\LivrariaService\\LivrariaService\\obj\\",
+        "outputPath": "C:\\Users\\Usuario\\Desktop\\Maracutaia\\Pessoal\\livraria-devweb2\\LivrariaService\\LivrariaService\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
