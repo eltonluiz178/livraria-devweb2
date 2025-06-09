@@ -3,36 +3,68 @@
   "WorkspaceRootPath": "C:\\Users\\Usuario\\Desktop\\Maracutaia\\Pessoal\\livraria-devweb2\\LivrariaService\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{780F74DA-3B54-4C9F-824F-999C30D8F36F}|LivrariaService\\LivrariaService.csproj|c:\\users\\usuario\\desktop\\maracutaia\\pessoal\\livraria-devweb2\\livrariaservice\\livrariaservice\\controllers\\livrocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{780F74DA-3B54-4C9F-824F-999C30D8F36F}|LivrariaService\\LivrariaService.csproj|solutionrelative:livrariaservice\\controllers\\livrocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{780F74DA-3B54-4C9F-824F-999C30D8F36F}|LivrariaService\\LivrariaService.csproj|c:\\users\\usuario\\desktop\\maracutaia\\pessoal\\livraria-devweb2\\livrariaservice\\livrariaservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{780F74DA-3B54-4C9F-824F-999C30D8F36F}|LivrariaService\\LivrariaService.csproj|solutionrelative:livrariaservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DBC4BEF8-6DB9-46BC-8D7E-A10211A00F27}|Application\\Application.csproj|c:\\users\\usuario\\desktop\\maracutaia\\pessoal\\livraria-devweb2\\livrariaservice\\application\\services\\livroservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DBC4BEF8-6DB9-46BC-8D7E-A10211A00F27}|Application\\Application.csproj|solutionrelative:application\\services\\livroservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{49E4715C-AECD-432D-B20C-3EB428F49EB9}|Infrastructure\\Infrastructure.csproj|c:\\users\\usuario\\desktop\\maracutaia\\pessoal\\livraria-devweb2\\livrariaservice\\infrastructure\\repositories\\emprestimorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49E4715C-AECD-432D-B20C-3EB428F49EB9}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repositories\\emprestimorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DBC4BEF8-6DB9-46BC-8D7E-A10211A00F27}|Application\\Application.csproj|c:\\users\\usuario\\desktop\\maracutaia\\pessoal\\livraria-devweb2\\livrariaservice\\application\\interfaces\\ilivroservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DBC4BEF8-6DB9-46BC-8D7E-A10211A00F27}|Application\\Application.csproj|solutionrelative:application\\interfaces\\ilivroservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DBC4BEF8-6DB9-46BC-8D7E-A10211A00F27}|Application\\Application.csproj|c:\\users\\usuario\\desktop\\maracutaia\\pessoal\\livraria-devweb2\\livrariaservice\\application\\services\\emprestimoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBC4BEF8-6DB9-46BC-8D7E-A10211A00F27}|Application\\Application.csproj|solutionrelative:application\\services\\emprestimoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{49E4715C-AECD-432D-B20C-3EB428F49EB9}|Infrastructure\\Infrastructure.csproj|c:\\users\\usuario\\desktop\\maracutaia\\pessoal\\livraria-devweb2\\livrariaservice\\infrastructure\\repositories\\livrorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{49E4715C-AECD-432D-B20C-3EB428F49EB9}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repositories\\livrorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{780F74DA-3B54-4C9F-824F-999C30D8F36F}|LivrariaService\\LivrariaService.csproj|c:\\users\\usuario\\desktop\\maracutaia\\pessoal\\livraria-devweb2\\livrariaservice\\livrariaservice\\controllers\\emprestimocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{780F74DA-3B54-4C9F-824F-999C30D8F36F}|LivrariaService\\LivrariaService.csproj|solutionrelative:livrariaservice\\controllers\\emprestimocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{49E4715C-AECD-432D-B20C-3EB428F49EB9}|Infrastructure\\Infrastructure.csproj|c:\\users\\usuario\\desktop\\maracutaia\\pessoal\\livraria-devweb2\\livrariaservice\\infrastructure\\interfaces\\ilivrorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{49E4715C-AECD-432D-B20C-3EB428F49EB9}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\interfaces\\ilivrorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{49E4715C-AECD-432D-B20C-3EB428F49EB9}|Infrastructure\\Infrastructure.csproj|c:\\users\\usuario\\desktop\\maracutaia\\pessoal\\livraria-devweb2\\livrariaservice\\infrastructure\\interfaces\\iemprestimorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49E4715C-AECD-432D-B20C-3EB428F49EB9}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\interfaces\\iemprestimorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBC4BEF8-6DB9-46BC-8D7E-A10211A00F27}|Application\\Application.csproj|c:\\users\\usuario\\desktop\\maracutaia\\pessoal\\livraria-devweb2\\livrariaservice\\application\\interfaces\\iemprestimoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBC4BEF8-6DB9-46BC-8D7E-A10211A00F27}|Application\\Application.csproj|solutionrelative:application\\interfaces\\iemprestimoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D2CA092-4345-47CD-8892-3F1AE1577CE2}|Domain\\Domain.csproj|c:\\users\\usuario\\desktop\\maracutaia\\pessoal\\livraria-devweb2\\livrariaservice\\domain\\model\\livroemprestimo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D2CA092-4345-47CD-8892-3F1AE1577CE2}|Domain\\Domain.csproj|solutionrelative:domain\\model\\livroemprestimo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D2CA092-4345-47CD-8892-3F1AE1577CE2}|Domain\\Domain.csproj|c:\\users\\usuario\\desktop\\maracutaia\\pessoal\\livraria-devweb2\\livrariaservice\\domain\\model\\emprestimo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D2CA092-4345-47CD-8892-3F1AE1577CE2}|Domain\\Domain.csproj|solutionrelative:domain\\model\\emprestimo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7D2CA092-4345-47CD-8892-3F1AE1577CE2}|Domain\\Domain.csproj|c:\\users\\usuario\\desktop\\maracutaia\\pessoal\\livraria-devweb2\\livrariaservice\\domain\\model\\livro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7D2CA092-4345-47CD-8892-3F1AE1577CE2}|Domain\\Domain.csproj|solutionrelative:domain\\model\\livro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{49E4715C-AECD-432D-B20C-3EB428F49EB9}|Infrastructure\\Infrastructure.csproj|c:\\users\\usuario\\desktop\\maracutaia\\pessoal\\livraria-devweb2\\livrariaservice\\infrastructure\\repositories\\livrorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49E4715C-AECD-432D-B20C-3EB428F49EB9}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repositories\\livrorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{780F74DA-3B54-4C9F-824F-999C30D8F36F}|LivrariaService\\LivrariaService.csproj|c:\\users\\usuario\\desktop\\maracutaia\\pessoal\\livraria-devweb2\\livrariaservice\\livrariaservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{780F74DA-3B54-4C9F-824F-999C30D8F36F}|LivrariaService\\LivrariaService.csproj|solutionrelative:livrariaservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBC4BEF8-6DB9-46BC-8D7E-A10211A00F27}|Application\\Application.csproj|c:\\users\\usuario\\desktop\\maracutaia\\pessoal\\livraria-devweb2\\livrariaservice\\application\\services\\clienteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBC4BEF8-6DB9-46BC-8D7E-A10211A00F27}|Application\\Application.csproj|solutionrelative:application\\services\\clienteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7D2CA092-4345-47CD-8892-3F1AE1577CE2}|Domain\\Domain.csproj|c:\\users\\usuario\\desktop\\maracutaia\\pessoal\\livraria-devweb2\\livrariaservice\\domain\\model\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7D2CA092-4345-47CD-8892-3F1AE1577CE2}|Domain\\Domain.csproj|solutionrelative:domain\\model\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7D2CA092-4345-47CD-8892-3F1AE1577CE2}|Domain\\Domain.csproj|c:\\users\\usuario\\desktop\\maracutaia\\pessoal\\livraria-devweb2\\livrariaservice\\domain\\model\\emprestimo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7D2CA092-4345-47CD-8892-3F1AE1577CE2}|Domain\\Domain.csproj|solutionrelative:domain\\model\\emprestimo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{780F74DA-3B54-4C9F-824F-999C30D8F36F}|LivrariaService\\LivrariaService.csproj|c:\\users\\usuario\\desktop\\maracutaia\\pessoal\\livraria-devweb2\\livrariaservice\\livrariaservice\\config\\dependecyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{780F74DA-3B54-4C9F-824F-999C30D8F36F}|LivrariaService\\LivrariaService.csproj|solutionrelative:livrariaservice\\config\\dependecyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{780F74DA-3B54-4C9F-824F-999C30D8F36F}|LivrariaService\\LivrariaService.csproj|c:\\users\\usuario\\desktop\\maracutaia\\pessoal\\livraria-devweb2\\livrariaservice\\livrariaservice\\config\\automapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{780F74DA-3B54-4C9F-824F-999C30D8F36F}|LivrariaService\\LivrariaService.csproj|solutionrelative:livrariaservice\\config\\automapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D2CA092-4345-47CD-8892-3F1AE1577CE2}|Domain\\Domain.csproj|c:\\users\\usuario\\desktop\\maracutaia\\pessoal\\livraria-devweb2\\livrariaservice\\domain\\dtos\\criaremprestimodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D2CA092-4345-47CD-8892-3F1AE1577CE2}|Domain\\Domain.csproj|solutionrelative:domain\\dtos\\criaremprestimodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,8 +74,22 @@
       "DocumentGroups": [
         {
           "DockedWidth": 328,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Maracutaia\\Pessoal\\livraria-devweb2\\LivrariaService\\LivrariaService\\appsettings.json",
+              "RelativeDocumentMoniker": "LivrariaService\\appsettings.json",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Maracutaia\\Pessoal\\livraria-devweb2\\LivrariaService\\LivrariaService\\appsettings.json",
+              "RelativeToolTip": "LivrariaService\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-27T16:59:37.883Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
@@ -58,65 +104,27 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "LivroController.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Maracutaia\\Pessoal\\livraria-devweb2\\LivrariaService\\LivrariaService\\Controllers\\LivroController.cs",
-              "RelativeDocumentMoniker": "LivrariaService\\Controllers\\LivroController.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Maracutaia\\Pessoal\\livraria-devweb2\\LivrariaService\\LivrariaService\\Controllers\\LivroController.cs",
-              "RelativeToolTip": "LivrariaService\\Controllers\\LivroController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAApAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "LivroEmprestimo.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Maracutaia\\Pessoal\\livraria-devweb2\\LivrariaService\\Domain\\Model\\LivroEmprestimo.cs",
+              "RelativeDocumentMoniker": "Domain\\Model\\LivroEmprestimo.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Maracutaia\\Pessoal\\livraria-devweb2\\LivrariaService\\Domain\\Model\\LivroEmprestimo.cs",
+              "RelativeToolTip": "Domain\\Model\\LivroEmprestimo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T12:44:49.051Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "LivroService.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Maracutaia\\Pessoal\\livraria-devweb2\\LivrariaService\\Application\\Services\\LivroService.cs",
-              "RelativeDocumentMoniker": "Application\\Services\\LivroService.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Maracutaia\\Pessoal\\livraria-devweb2\\LivrariaService\\Application\\Services\\LivroService.cs",
-              "RelativeToolTip": "Application\\Services\\LivroService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGYAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T11:51:57.732Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ILivroService.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Maracutaia\\Pessoal\\livraria-devweb2\\LivrariaService\\Application\\Interfaces\\ILivroService.cs",
-              "RelativeDocumentMoniker": "Application\\Interfaces\\ILivroService.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Maracutaia\\Pessoal\\livraria-devweb2\\LivrariaService\\Application\\Interfaces\\ILivroService.cs",
-              "RelativeToolTip": "Application\\Interfaces\\ILivroService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T11:48:04.298Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "LivroRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Maracutaia\\Pessoal\\livraria-devweb2\\LivrariaService\\Infrastructure\\Repositories\\LivroRepository.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Repositories\\LivroRepository.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Maracutaia\\Pessoal\\livraria-devweb2\\LivrariaService\\Infrastructure\\Repositories\\LivroRepository.cs",
-              "RelativeToolTip": "Infrastructure\\Repositories\\LivroRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHAAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T11:04:36.961Z"
+              "WhenOpened": "2025-06-04T15:52:56.428Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "ILivroRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Maracutaia\\Pessoal\\livraria-devweb2\\LivrariaService\\Infrastructure\\Interfaces\\ILivroRepository.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Interfaces\\ILivroRepository.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Maracutaia\\Pessoal\\livraria-devweb2\\LivrariaService\\Infrastructure\\Interfaces\\ILivroRepository.cs",
-              "RelativeToolTip": "Infrastructure\\Interfaces\\ILivroRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Title": "IEmprestimoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Maracutaia\\Pessoal\\livraria-devweb2\\LivrariaService\\Infrastructure\\Interfaces\\IEmprestimoRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Interfaces\\IEmprestimoRepository.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Maracutaia\\Pessoal\\livraria-devweb2\\LivrariaService\\Infrastructure\\Interfaces\\IEmprestimoRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Interfaces\\IEmprestimoRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAwwAwAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T10:59:25.654Z"
+              "WhenOpened": "2025-05-27T15:23:56.478Z"
             },
             {
               "$type": "Document",
@@ -126,33 +134,154 @@
               "RelativeDocumentMoniker": "Domain\\Model\\Emprestimo.cs",
               "ToolTip": "C:\\Users\\Usuario\\Desktop\\Maracutaia\\Pessoal\\livraria-devweb2\\LivrariaService\\Domain\\Model\\Emprestimo.cs",
               "RelativeToolTip": "Domain\\Model\\Emprestimo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-23T18:00:50.598Z"
+              "WhenOpened": "2025-05-27T11:45:46.019Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Cliente.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Maracutaia\\Pessoal\\livraria-devweb2\\LivrariaService\\Domain\\Model\\Cliente.cs",
-              "RelativeDocumentMoniker": "Domain\\Model\\Cliente.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Maracutaia\\Pessoal\\livraria-devweb2\\LivrariaService\\Domain\\Model\\Cliente.cs",
-              "RelativeToolTip": "Domain\\Model\\Cliente.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAlAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "EmprestimoService.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Maracutaia\\Pessoal\\livraria-devweb2\\LivrariaService\\Application\\Services\\EmprestimoService.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\EmprestimoService.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Maracutaia\\Pessoal\\livraria-devweb2\\LivrariaService\\Application\\Services\\EmprestimoService.cs",
+              "RelativeToolTip": "Application\\Services\\EmprestimoService.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAswBoAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-23T18:00:18.416Z"
+              "WhenOpened": "2025-05-27T12:22:49.49Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "IEmprestimoService.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Maracutaia\\Pessoal\\livraria-devweb2\\LivrariaService\\Application\\Interfaces\\IEmprestimoService.cs",
+              "RelativeDocumentMoniker": "Application\\Interfaces\\IEmprestimoService.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Maracutaia\\Pessoal\\livraria-devweb2\\LivrariaService\\Application\\Interfaces\\IEmprestimoService.cs",
+              "RelativeToolTip": "Application\\Interfaces\\IEmprestimoService.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAzwA0AAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T12:21:59.06Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EmprestimoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Maracutaia\\Pessoal\\livraria-devweb2\\LivrariaService\\Infrastructure\\Repositories\\EmprestimoRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Repositories\\EmprestimoRepository.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Maracutaia\\Pessoal\\livraria-devweb2\\LivrariaService\\Infrastructure\\Repositories\\EmprestimoRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Repositories\\EmprestimoRepository.cs",
+              "ViewState": "AgIAAHIAAAAAAAAAAAAqwIgAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T11:48:10.783Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "Livro.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Maracutaia\\Pessoal\\livraria-devweb2\\LivrariaService\\Domain\\Model\\Livro.cs",
               "RelativeDocumentMoniker": "Domain\\Model\\Livro.cs",
               "ToolTip": "C:\\Users\\Usuario\\Desktop\\Maracutaia\\Pessoal\\livraria-devweb2\\LivrariaService\\Domain\\Model\\Livro.cs",
               "RelativeToolTip": "Domain\\Model\\Livro.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T17:24:52.597Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EmprestimoController.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Maracutaia\\Pessoal\\livraria-devweb2\\LivrariaService\\LivrariaService\\Controllers\\EmprestimoController.cs",
+              "RelativeDocumentMoniker": "LivrariaService\\Controllers\\EmprestimoController.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Maracutaia\\Pessoal\\livraria-devweb2\\LivrariaService\\LivrariaService\\Controllers\\EmprestimoController.cs",
+              "RelativeToolTip": "LivrariaService\\Controllers\\EmprestimoController.cs",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAswGEAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T16:16:15.854Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Maracutaia\\Pessoal\\livraria-devweb2\\LivrariaService\\LivrariaService\\Program.cs",
+              "RelativeDocumentMoniker": "LivrariaService\\Program.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Maracutaia\\Pessoal\\livraria-devweb2\\LivrariaService\\LivrariaService\\Program.cs",
+              "RelativeToolTip": "LivrariaService\\Program.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAAC4AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T16:57:09.612Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "LivroRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Maracutaia\\Pessoal\\livraria-devweb2\\LivrariaService\\Infrastructure\\Repositories\\LivroRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Repositories\\LivroRepository.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Maracutaia\\Pessoal\\livraria-devweb2\\LivrariaService\\Infrastructure\\Repositories\\LivroRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Repositories\\LivroRepository.cs",
+              "ViewState": "AgIAAFkAAAAAAAAAAAAswGQAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T17:26:36.478Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AutoMapper.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Maracutaia\\Pessoal\\livraria-devweb2\\LivrariaService\\LivrariaService\\Config\\AutoMapper.cs",
+              "RelativeDocumentMoniker": "LivrariaService\\Config\\AutoMapper.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Maracutaia\\Pessoal\\livraria-devweb2\\LivrariaService\\LivrariaService\\Config\\AutoMapper.cs",
+              "RelativeToolTip": "LivrariaService\\Config\\AutoMapper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T16:49:12.807Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "DependecyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Maracutaia\\Pessoal\\livraria-devweb2\\LivrariaService\\LivrariaService\\Config\\DependecyInjection.cs",
+              "RelativeDocumentMoniker": "LivrariaService\\Config\\DependecyInjection.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Maracutaia\\Pessoal\\livraria-devweb2\\LivrariaService\\LivrariaService\\Config\\DependecyInjection.cs",
+              "RelativeToolTip": "LivrariaService\\Config\\DependecyInjection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T16:51:17.109Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ClienteService.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Maracutaia\\Pessoal\\livraria-devweb2\\LivrariaService\\Application\\Services\\ClienteService.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\ClienteService.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Maracutaia\\Pessoal\\livraria-devweb2\\LivrariaService\\Application\\Services\\ClienteService.cs",
+              "RelativeToolTip": "Application\\Services\\ClienteService.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAIAwwDAAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T16:55:05.662Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Cliente.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Maracutaia\\Pessoal\\livraria-devweb2\\LivrariaService\\Domain\\Model\\Cliente.cs",
+              "RelativeDocumentMoniker": "Domain\\Model\\Cliente.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Maracutaia\\Pessoal\\livraria-devweb2\\LivrariaService\\Domain\\Model\\Cliente.cs",
+              "RelativeToolTip": "Domain\\Model\\Cliente.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T17:33:18.263Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CriarEmprestimoDto.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Maracutaia\\Pessoal\\livraria-devweb2\\LivrariaService\\Domain\\Dtos\\CriarEmprestimoDto.cs",
+              "RelativeDocumentMoniker": "Domain\\Dtos\\CriarEmprestimoDto.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Maracutaia\\Pessoal\\livraria-devweb2\\LivrariaService\\Domain\\Dtos\\CriarEmprestimoDto.cs",
+              "RelativeToolTip": "Domain\\Dtos\\CriarEmprestimoDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-23T17:59:21.563Z"
+              "WhenOpened": "2025-05-27T12:26:35.216Z"
             }
           ]
         }

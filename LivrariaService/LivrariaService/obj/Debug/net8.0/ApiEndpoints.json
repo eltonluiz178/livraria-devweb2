@@ -1,0 +1,214 @@
+[
+  {
+    "ContainingType": "LivrariaService.Controllers.ClienteController",
+    "Method": "AdicionarClienteAsync",
+    "RelativePath": "clientes",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cliente",
+        "Type": "Domain.Model.Cliente",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LivrariaService.Controllers.ClienteController",
+    "Method": "BuscarClientePorIdAsync",
+    "RelativePath": "clientes/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LivrariaService.Controllers.EmprestimoController",
+    "Method": "BuscarEmprestimosAsync",
+    "RelativePath": "emprestimos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LivrariaService.Controllers.EmprestimoController",
+    "Method": "AdicionarEmprestimoAsync",
+    "RelativePath": "emprestimos",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "emprestimoDto",
+        "Type": "Domain.Dtos.CriarEmprestimoDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LivrariaService.Controllers.EmprestimoController",
+    "Method": "BuscarEmprestimoPorIdAsync",
+    "RelativePath": "emprestimos/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LivrariaService.Controllers.EmprestimoController",
+    "Method": "BuscarLivroPorClienteAsync",
+    "RelativePath": "emprestimos/cliente/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LivrariaService.Controllers.EmprestimoController",
+    "Method": "DesativarEmprestimoAsync",
+    "RelativePath": "emprestimos/desativar/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LivrariaService.Controllers.EmprestimoController",
+    "Method": "EstenderEmprestimoAsync",
+    "RelativePath": "emprestimos/estender/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LivrariaService.Controllers.EmprestimoController",
+    "Method": "BuscarEmprestimoAtivoPorLivroAsync",
+    "RelativePath": "emprestimos/livro/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LivrariaService.Controllers.LivroController",
+    "Method": "BuscarLivrosAsync",
+    "RelativePath": "livros",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LivrariaService.Controllers.LivroController",
+    "Method": "AdicionarLivroAsync",
+    "RelativePath": "livros",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "livro",
+        "Type": "Domain.Model.Livro",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LivrariaService.Controllers.LivroController",
+    "Method": "EditarLivroAsync",
+    "RelativePath": "livros",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "livro",
+        "Type": "Domain.Model.Livro",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LivrariaService.Controllers.LivroController",
+    "Method": "BuscarLivroPorIdAsync",
+    "RelativePath": "livros/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LivrariaService.Controllers.LivroController",
+    "Method": "DeletarLivroAsync",
+    "RelativePath": "livros/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
