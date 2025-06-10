@@ -1,0 +1,49 @@
+.card1 {
+  box-shadow: 10px 10px 10px rgb(21, 69, 128);
+}
+.card2 {
+  box-shadow: 10px 10px 10px rgb(107, 209, 255);
+}
+.card3 {
+  box-shadow: 10px 10px 10px rgb(25, 135, 84);
+}
+
+.titulo1 {
+  color: rgb(21, 69, 128);
+}
+
+.titulo2 {
+  color: rgb(107, 209, 255);
+}
+
+.titulo3 {
+  color: rgb(25, 135, 84);
+}
+
+h1{
+  font-size: 1.5rem;
+}
+
+p {
+  font-size: 16px;
+  color: #6C757D;
+}
+
+h5{
+  font-size: 16px;
+  color: #154580;
+}
+
+.citacao {
+  background-color: #f9f9f9;
+  font-family: italic;
+  margin: 20px 0;
+  padding: 15px 20px;
+  color: #333;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
+  font-size: 1.1rem;
+  position: relative;
+  width: 315px;
+  height: 120px;
+}
