@@ -2,38 +2,39 @@ import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
 import { RealizarEmprestimo } from '../../interfaces/realizarEmprestimo';
+import { environment } from '../../../../../environment/environment.prod';
 
 @Injectable({
   providedIn: 'root'
 })
 export class EmprestimoServiceService {
-  private readonly API = 'http://localhost:5000/emprestimos'
+  private url: string = environment.apiUrl + "/emprestimos"
 
   constructor(private http: HttpClient) {
-    console.log('API URL:', this.API);
+    console.log('API URL:', this.url);
    }
 
   obterEmprestimoPorLivro(id: number): Observable<any>{
-    const url = `${this.API}/livro/${id}`
+    const url = `${this.url}/livro/${id}`
     return this.http.get<any>(url);
   }
 
   obterEmprestimoPorCliente(id: number): Observable<any>{
-    const url = `${this.API}/cliente/${id}`
+    const url = `${this.url}/cliente/${id}`
     return this.http.get<any>(url);
   }
 
   estenderEmprestimo(id: number): Observable<any>{
-    const url = `${this.API}/estender/${id}`
+    const url = `${this.url}/estender/${id}`
     return this.http.put<any>(url,null);
   }
 
   desativarEmprestimo(id: number): Observable<any>{
-    const url = `${this.API}/desativar/${id}`
+    const url = `${this.url}/desativar/${id}`
     return this.http.put<any>(url,null);
   }
 
   realizarEmprestimo(emprestimo: RealizarEmprestimo): Observable<any>{
-    return this.http.post(this.API,emprestimo);
+    return this.http.post(this.url,emprestimo);
   }
 }
