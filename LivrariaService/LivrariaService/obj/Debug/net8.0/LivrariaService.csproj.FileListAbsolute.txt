@@ -140,7 +140,6 @@ C:\Users\Usuario\Desktop\Maracutaia\Pessoal\livraria-devweb2\LivrariaService\Liv
 C:\Users\Usuario\Desktop\Maracutaia\Pessoal\livraria-devweb2\LivrariaService\LivrariaService\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.LivrariaService.props
 C:\Users\Usuario\Desktop\Maracutaia\Pessoal\livraria-devweb2\LivrariaService\LivrariaService\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.LivrariaService.props
 C:\Users\Usuario\Desktop\Maracutaia\Pessoal\livraria-devweb2\LivrariaService\LivrariaService\obj\Debug\net8.0\staticwebassets.pack.json
-C:\Users\Usuario\Desktop\Maracutaia\Pessoal\livraria-devweb2\LivrariaService\LivrariaService\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\Usuario\Desktop\Maracutaia\Pessoal\livraria-devweb2\LivrariaService\LivrariaService\obj\Debug\net8.0\Livraria.940BF3F5.Up2Date
 C:\Users\Usuario\Desktop\Maracutaia\Pessoal\livraria-devweb2\LivrariaService\LivrariaService\obj\Debug\net8.0\LivrariaService.dll
 C:\Users\Usuario\Desktop\Maracutaia\Pessoal\livraria-devweb2\LivrariaService\LivrariaService\obj\Debug\net8.0\refint\LivrariaService.dll
