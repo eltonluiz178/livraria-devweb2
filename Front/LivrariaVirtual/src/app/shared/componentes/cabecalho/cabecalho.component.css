@@ -1,0 +1,25 @@
+section {
+  background-image: url("/assets/fundo-cabecalho.png");
+}
+
+img {
+  width: 120px;
+  height: 120px;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  font-size: 17px;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-family: sans-serif;
+  transition: background-color 0.7s ease;
+  display: inline-block;
+}
+
+.link:hover {
+  background-color: rgb(106, 164, 208);
+}
