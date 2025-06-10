@@ -24,7 +24,7 @@ services:
 
   frontend:
     build:
-      context: .././Front/LivrariaVirtual/
+      context: ./../Front/LivrariaVirtual/
       dockerfile: Dockerfile
     ports: 
     - "4200:4200"

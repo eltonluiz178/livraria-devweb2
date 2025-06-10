@@ -7,9 +7,11 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class LivroServiceService {
-  private readonly API = 'https://localhost:7173/livros'
+  private readonly API = 'http://localhost:5000/livros'
 
-  constructor(private http: HttpClient) { }
+  constructor(private http: HttpClient) {
+    console.log('API URL:', this.API);
+  }
 
   obterLivros(): Observable<any>{
     return this.http.get<any>(this.API);

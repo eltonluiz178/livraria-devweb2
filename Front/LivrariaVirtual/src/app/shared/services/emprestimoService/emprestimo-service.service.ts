@@ -7,9 +7,11 @@ import { RealizarEmprestimo } from '../../interfaces/realizarEmprestimo';
   providedIn: 'root'
 })
 export class EmprestimoServiceService {
-  private readonly API = 'https://localhost:7173/emprestimos'
+  private readonly API = 'http://localhost:5000/emprestimos'
 
-  constructor(private http: HttpClient) { }
+  constructor(private http: HttpClient) {
+    console.log('API URL:', this.API);
+   }
 
   obterEmprestimoPorLivro(id: number): Observable<any>{
     const url = `${this.API}/livro/${id}`
