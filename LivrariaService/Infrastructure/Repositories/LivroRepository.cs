@@ -18,15 +18,14 @@ public class LivroRepository : ILivroRepository
     {
         try
         {
-            var sql = "INSERT INTO Livro VALUES (@TITULO, @AUTOR, @DESCRICAO, @GENERO, @EDITORA, @QUANTIDADE)";
+            var sql = "INSERT INTO Livro VALUES (@TITULO, @AUTOR, @DESCRICAO, @GENERO, @EDITORA)";
             var parametros = new
             {
-                TITULO = livro.Título,
+                TITULO = livro.Titulo,
                 AUTOR = livro.Autor,
                 DESCRICAO = livro.Descricao,
                 GENERO = livro.Genero,
-                EDITORA = livro.Editora,
-                QUANTIDADE = livro.QuantidadeDisponivel
+                EDITORA = livro.Editora
             };
 
             var resposta = await _connection.ExecuteAsync(sql, parametros);
@@ -95,16 +94,15 @@ public class LivroRepository : ILivroRepository
     {
         try
         {
-            var sql = "UPDATE Livro SET Titulo=@TITULO,Autor=@AUTOR,Descricao=@DESCRICAO,Genero=@GENERO,Editora=@EDITORA,QuantidadeDisponivel=@QUANTIDADE WHERE Id=@ID";
+            var sql = "UPDATE Livro SET Titulo=@TITULO,Autor=@AUTOR,Descricao=@DESCRICAO,Genero=@GENERO,Editora=@EDITORA WHERE Id=@ID";
 
             var parametros = new
             {
-                TITULO = livro.Título,
+                TITULO = livro.Titulo,
                 AUTOR = livro.Autor,
                 DESCRICAO = livro.Descricao,
                 GENERO = livro.Genero,
                 EDITORA = livro.Editora,
-                QUANTIDADE = livro.QuantidadeDisponivel,
                 ID = livro.Id
             };
 
