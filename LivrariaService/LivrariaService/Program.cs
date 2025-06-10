@@ -19,6 +19,8 @@ builder.Services.AddCors(options =>
 
 string? connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
 
+Console.WriteLine(connectionString);
+
 builder.Services.AddScoped<IDbConnection>(provider =>
 {
     SqlConnection connection = new SqlConnection(connectionString);
@@ -45,8 +47,6 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseCors("AllowAll");
-
-app.UseHttpsRedirection();
 
 app.UseAuthorization();
 

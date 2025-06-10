@@ -1,0 +1,28 @@
+FROM mcr.microsoft.com/mssql/server:2019-latest
+
+# Mudar para usuário root para garantir permissões
+USER root
+
+# Criar diretório e ajustar permissões
+RUN mkdir -p /var/lib/apt/lists/partial \
+    && chown -R root:root /var/lib/apt \
+    && chmod -R 755 /var/lib/apt
+
+# Instalar dependências e ferramentas do SQL Server
+RUN apt-get update \
+    && apt-get install -y curl gnupg unixodbc-dev \
+    && curl https://packages.microsoft.com/keys/microsoft.asc | apt-key add - \
+    && curl https://packages.microsoft.com/config/ubuntu/18.04/prod.list > /etc/apt/sources.list.d/mssql-release.list \
+    && apt-get update \
+    && ACCEPT_EULA=Y apt-get install -y mssql-tools \
+    && apt-get clean \
+    && rm -rf /var/lib/apt/lists/*
+
+# Adicionar sqlcmd ao PATH
+RUN echo 'export PATH="$PATH:/opt/mssql-tools/bin"' >> ~/.bashrc
+
+# Voltar para o usuário padrão do SQL Server
+USER mssql
+
+# Expor a porta padrão do SQL Server
+EXPOSE 1433

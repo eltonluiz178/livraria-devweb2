@@ -2,13 +2,12 @@
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 WORKDIR /src
 
-#Copie os arquivos de projeto primeiro (para otimizar cache do Docker)
-COPY *.csproj ./
-RUN dotnet restore
-
-#Copie o resto dos arquivos e faça o build
+#Copie todos os arquivos primeiro
 COPY . .
-RUN dotnet publish -c Release -o /app/publish --no-restore
+
+#Faça restore e build
+RUN dotnet restore
+RUN dotnet publish -c Release -o /app/publish
 
 #Use a imagem runtime mais leve para produção
 FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS runtime

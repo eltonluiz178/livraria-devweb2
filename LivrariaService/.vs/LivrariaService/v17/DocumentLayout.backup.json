@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\Usuario\\Desktop\\Maracutaia\\Pessoal\\livraria-devweb2\\LivrariaService\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{780F74DA-3B54-4C9F-824F-999C30D8F36F}|LivrariaService\\LivrariaService.csproj|c:\\users\\usuario\\desktop\\maracutaia\\pessoal\\livraria-devweb2\\livrariaservice\\livrariaservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{780F74DA-3B54-4C9F-824F-999C30D8F36F}|LivrariaService\\LivrariaService.csproj|solutionrelative:livrariaservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{780F74DA-3B54-4C9F-824F-999C30D8F36F}|LivrariaService\\LivrariaService.csproj|c:\\users\\usuario\\desktop\\maracutaia\\pessoal\\livraria-devweb2\\livrariaservice\\livrariaservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{780F74DA-3B54-4C9F-824F-999C30D8F36F}|LivrariaService\\LivrariaService.csproj|solutionrelative:livrariaservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{780F74DA-3B54-4C9F-824F-999C30D8F36F}|LivrariaService\\LivrariaService.csproj|c:\\users\\usuario\\desktop\\maracutaia\\pessoal\\livraria-devweb2\\livrariaservice\\livrariaservice\\livrariaservice.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
       "RelativeMoniker": "D:0:0:{780F74DA-3B54-4C9F-824F-999C30D8F36F}|LivrariaService\\LivrariaService.csproj|solutionrelative:livrariaservice\\livrariaservice.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
     },
@@ -11,16 +19,8 @@
       "RelativeMoniker": "D:0:0:{780F74DA-3B54-4C9F-824F-999C30D8F36F}|LivrariaService\\LivrariaService.csproj|solutionrelative:livrariaservice\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{780F74DA-3B54-4C9F-824F-999C30D8F36F}|LivrariaService\\LivrariaService.csproj|c:\\users\\usuario\\desktop\\maracutaia\\pessoal\\livraria-devweb2\\livrariaservice\\livrariaservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{780F74DA-3B54-4C9F-824F-999C30D8F36F}|LivrariaService\\LivrariaService.csproj|solutionrelative:livrariaservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{780F74DA-3B54-4C9F-824F-999C30D8F36F}|LivrariaService\\LivrariaService.csproj|c:\\users\\usuario\\desktop\\maracutaia\\pessoal\\livraria-devweb2\\livrariaservice\\livrariaservice\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{780F74DA-3B54-4C9F-824F-999C30D8F36F}|LivrariaService\\LivrariaService.csproj|solutionrelative:livrariaservice\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{780F74DA-3B54-4C9F-824F-999C30D8F36F}|LivrariaService\\LivrariaService.csproj|c:\\users\\usuario\\desktop\\maracutaia\\pessoal\\livraria-devweb2\\livrariaservice\\livrariaservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{780F74DA-3B54-4C9F-824F-999C30D8F36F}|LivrariaService\\LivrariaService.csproj|solutionrelative:livrariaservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{49E4715C-AECD-432D-B20C-3EB428F49EB9}|Infrastructure\\Infrastructure.csproj|c:\\users\\usuario\\desktop\\maracutaia\\pessoal\\livraria-devweb2\\livrariaservice\\infrastructure\\repositories\\emprestimorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -86,11 +86,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 328,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Maracutaia\\Pessoal\\livraria-devweb2\\LivrariaService\\LivrariaService\\appsettings.json",
               "RelativeDocumentMoniker": "LivrariaService\\appsettings.json",
@@ -100,45 +100,6 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-05-27T16:59:37.883Z",
               "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "LivrariaService.http",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Maracutaia\\Pessoal\\livraria-devweb2\\LivrariaService\\LivrariaService\\LivrariaService.http",
-              "RelativeDocumentMoniker": "LivrariaService\\LivrariaService.http",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Maracutaia\\Pessoal\\livraria-devweb2\\LivrariaService\\LivrariaService\\LivrariaService.http",
-              "RelativeToolTip": "LivrariaService\\LivrariaService.http",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2025-06-10T00:54:34.563Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Maracutaia\\Pessoal\\livraria-devweb2\\LivrariaService\\LivrariaService\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "LivrariaService\\appsettings.Development.json",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Maracutaia\\Pessoal\\livraria-devweb2\\LivrariaService\\LivrariaService\\appsettings.Development.json",
-              "RelativeToolTip": "LivrariaService\\appsettings.Development.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-06-10T00:53:28.256Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Maracutaia\\Pessoal\\livraria-devweb2\\LivrariaService\\LivrariaService\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "LivrariaService\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Maracutaia\\Pessoal\\livraria-devweb2\\LivrariaService\\LivrariaService\\Properties\\launchSettings.json",
-              "RelativeToolTip": "LivrariaService\\Properties\\launchSettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-06-10T00:51:09.634Z",
               "EditorCaption": ""
             },
             {
@@ -152,6 +113,42 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LivrariaService.http",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Maracutaia\\Pessoal\\livraria-devweb2\\LivrariaService\\LivrariaService\\LivrariaService.http",
+              "RelativeDocumentMoniker": "LivrariaService\\LivrariaService.http",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Maracutaia\\Pessoal\\livraria-devweb2\\LivrariaService\\LivrariaService\\LivrariaService.http",
+              "RelativeToolTip": "LivrariaService\\LivrariaService.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-06-10T00:54:34.563Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Maracutaia\\Pessoal\\livraria-devweb2\\LivrariaService\\LivrariaService\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "LivrariaService\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Maracutaia\\Pessoal\\livraria-devweb2\\LivrariaService\\LivrariaService\\appsettings.Development.json",
+              "RelativeToolTip": "LivrariaService\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-10T00:53:28.256Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Maracutaia\\Pessoal\\livraria-devweb2\\LivrariaService\\LivrariaService\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "LivrariaService\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Maracutaia\\Pessoal\\livraria-devweb2\\LivrariaService\\LivrariaService\\Properties\\launchSettings.json",
+              "RelativeToolTip": "LivrariaService\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-10T00:51:09.634Z"
             },
             {
               "$type": "Document",
@@ -203,6 +200,18 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Maracutaia\\Pessoal\\livraria-devweb2\\LivrariaService\\LivrariaService\\Program.cs",
+              "RelativeDocumentMoniker": "LivrariaService\\Program.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Maracutaia\\Pessoal\\livraria-devweb2\\LivrariaService\\LivrariaService\\Program.cs",
+              "RelativeToolTip": "LivrariaService\\Program.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAgwBUAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T16:57:09.612Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 5,
               "Title": "EmprestimoRepository.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Maracutaia\\Pessoal\\livraria-devweb2\\LivrariaService\\Infrastructure\\Repositories\\EmprestimoRepository.cs",
@@ -224,19 +233,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-28T17:24:52.597Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Maracutaia\\Pessoal\\livraria-devweb2\\LivrariaService\\LivrariaService\\Program.cs",
-              "RelativeDocumentMoniker": "LivrariaService\\Program.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Maracutaia\\Pessoal\\livraria-devweb2\\LivrariaService\\LivrariaService\\Program.cs",
-              "RelativeToolTip": "LivrariaService\\Program.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAAC4AAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T16:57:09.612Z",
-              "EditorCaption": ""
             },
             {
               "$type": "Document",
