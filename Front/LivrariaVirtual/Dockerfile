@@ -14,7 +14,7 @@ RUN npm install
 COPY . .
 
 # Execute o build do Angular (gera os arquivos na pasta dist)
-RUN npm run build
+RUN npm run build -- --configuration=production
 
 # Instale o http-server globalmente
 RUN npm install -g http-server
