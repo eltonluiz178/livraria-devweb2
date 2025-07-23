@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Usuario\\Desktop\\Maracutaia\\Pessoal\\livraria-devweb2\\LivrariaService\\LivrariaService\\LivrariaService.csproj": {}
+    "C:\\Programação\\Projeto Dev Web\\livraria-devweb2\\LivrariaService\\LivrariaService\\LivrariaService.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Usuario\\Desktop\\Maracutaia\\Pessoal\\livraria-devweb2\\LivrariaService\\Application\\Application.csproj": {
+    "C:\\Programação\\Projeto Dev Web\\livraria-devweb2\\LivrariaService\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\Maracutaia\\Pessoal\\livraria-devweb2\\LivrariaService\\Application\\Application.csproj",
+        "projectUniqueName": "C:\\Programação\\Projeto Dev Web\\livraria-devweb2\\LivrariaService\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "C:\\Users\\Usuario\\Desktop\\Maracutaia\\Pessoal\\livraria-devweb2\\LivrariaService\\Application\\Application.csproj",
-        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Usuario\\Desktop\\Maracutaia\\Pessoal\\livraria-devweb2\\LivrariaService\\Application\\obj\\",
+        "projectPath": "C:\\Programação\\Projeto Dev Web\\livraria-devweb2\\LivrariaService\\Application\\Application.csproj",
+        "packagesPath": "C:\\Users\\elton\\.nuget\\packages\\",
+        "outputPath": "C:\\Programação\\Projeto Dev Web\\livraria-devweb2\\LivrariaService\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\elton\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -32,11 +32,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Usuario\\Desktop\\Maracutaia\\Pessoal\\livraria-devweb2\\LivrariaService\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\Usuario\\Desktop\\Maracutaia\\Pessoal\\livraria-devweb2\\LivrariaService\\Domain\\Domain.csproj"
+              "C:\\Programação\\Projeto Dev Web\\livraria-devweb2\\LivrariaService\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Programação\\Projeto Dev Web\\livraria-devweb2\\LivrariaService\\Domain\\Domain.csproj"
               },
-              "C:\\Users\\Usuario\\Desktop\\Maracutaia\\Pessoal\\livraria-devweb2\\LivrariaService\\Infrastructure\\Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\Usuario\\Desktop\\Maracutaia\\Pessoal\\livraria-devweb2\\LivrariaService\\Infrastructure\\Infrastructure.csproj"
+              "C:\\Programação\\Projeto Dev Web\\livraria-devweb2\\LivrariaService\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "C:\\Programação\\Projeto Dev Web\\livraria-devweb2\\LivrariaService\\Infrastructure\\Infrastructure.csproj"
               }
             }
           }
@@ -51,7 +51,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
@@ -78,24 +78,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.103/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Usuario\\Desktop\\Maracutaia\\Pessoal\\livraria-devweb2\\LivrariaService\\Domain\\Domain.csproj": {
+    "C:\\Programação\\Projeto Dev Web\\livraria-devweb2\\LivrariaService\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\Maracutaia\\Pessoal\\livraria-devweb2\\LivrariaService\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Programação\\Projeto Dev Web\\livraria-devweb2\\LivrariaService\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\Usuario\\Desktop\\Maracutaia\\Pessoal\\livraria-devweb2\\LivrariaService\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Usuario\\Desktop\\Maracutaia\\Pessoal\\livraria-devweb2\\LivrariaService\\Domain\\obj\\",
+        "projectPath": "C:\\Programação\\Projeto Dev Web\\livraria-devweb2\\LivrariaService\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\elton\\.nuget\\packages\\",
+        "outputPath": "C:\\Programação\\Projeto Dev Web\\livraria-devweb2\\LivrariaService\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\elton\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -122,7 +122,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
@@ -143,24 +143,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.103/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Usuario\\Desktop\\Maracutaia\\Pessoal\\livraria-devweb2\\LivrariaService\\Infrastructure\\Infrastructure.csproj": {
+    "C:\\Programação\\Projeto Dev Web\\livraria-devweb2\\LivrariaService\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\Maracutaia\\Pessoal\\livraria-devweb2\\LivrariaService\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "C:\\Programação\\Projeto Dev Web\\livraria-devweb2\\LivrariaService\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "C:\\Users\\Usuario\\Desktop\\Maracutaia\\Pessoal\\livraria-devweb2\\LivrariaService\\Infrastructure\\Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Usuario\\Desktop\\Maracutaia\\Pessoal\\livraria-devweb2\\LivrariaService\\Infrastructure\\obj\\",
+        "projectPath": "C:\\Programação\\Projeto Dev Web\\livraria-devweb2\\LivrariaService\\Infrastructure\\Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\elton\\.nuget\\packages\\",
+        "outputPath": "C:\\Programação\\Projeto Dev Web\\livraria-devweb2\\LivrariaService\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\elton\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -175,8 +175,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Usuario\\Desktop\\Maracutaia\\Pessoal\\livraria-devweb2\\LivrariaService\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\Usuario\\Desktop\\Maracutaia\\Pessoal\\livraria-devweb2\\LivrariaService\\Domain\\Domain.csproj"
+              "C:\\Programação\\Projeto Dev Web\\livraria-devweb2\\LivrariaService\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Programação\\Projeto Dev Web\\livraria-devweb2\\LivrariaService\\Domain\\Domain.csproj"
               }
             }
           }
@@ -191,7 +191,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
@@ -218,24 +218,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.103/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Usuario\\Desktop\\Maracutaia\\Pessoal\\livraria-devweb2\\LivrariaService\\LivrariaService\\LivrariaService.csproj": {
+    "C:\\Programação\\Projeto Dev Web\\livraria-devweb2\\LivrariaService\\LivrariaService\\LivrariaService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\Maracutaia\\Pessoal\\livraria-devweb2\\LivrariaService\\LivrariaService\\LivrariaService.csproj",
+        "projectUniqueName": "C:\\Programação\\Projeto Dev Web\\livraria-devweb2\\LivrariaService\\LivrariaService\\LivrariaService.csproj",
         "projectName": "LivrariaService",
-        "projectPath": "C:\\Users\\Usuario\\Desktop\\Maracutaia\\Pessoal\\livraria-devweb2\\LivrariaService\\LivrariaService\\LivrariaService.csproj",
-        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Usuario\\Desktop\\Maracutaia\\Pessoal\\livraria-devweb2\\LivrariaService\\LivrariaService\\obj\\",
+        "projectPath": "C:\\Programação\\Projeto Dev Web\\livraria-devweb2\\LivrariaService\\LivrariaService\\LivrariaService.csproj",
+        "packagesPath": "C:\\Users\\elton\\.nuget\\packages\\",
+        "outputPath": "C:\\Programação\\Projeto Dev Web\\livraria-devweb2\\LivrariaService\\LivrariaService\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\elton\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -250,8 +250,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Usuario\\Desktop\\Maracutaia\\Pessoal\\livraria-devweb2\\LivrariaService\\Application\\Application.csproj": {
-                "projectPath": "C:\\Users\\Usuario\\Desktop\\Maracutaia\\Pessoal\\livraria-devweb2\\LivrariaService\\Application\\Application.csproj"
+              "C:\\Programação\\Projeto Dev Web\\livraria-devweb2\\LivrariaService\\Application\\Application.csproj": {
+                "projectPath": "C:\\Programação\\Projeto Dev Web\\livraria-devweb2\\LivrariaService\\Application\\Application.csproj"
               }
             }
           }
@@ -266,12 +266,16 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[8.0.0, )"
@@ -310,7 +314,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.103/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

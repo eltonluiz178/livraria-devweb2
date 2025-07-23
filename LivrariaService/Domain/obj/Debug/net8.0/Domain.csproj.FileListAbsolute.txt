@@ -10,3 +10,15 @@ C:\Users\Usuario\Desktop\Maracutaia\Pessoal\livraria-devweb2\LivrariaService\Dom
 C:\Users\Usuario\Desktop\Maracutaia\Pessoal\livraria-devweb2\LivrariaService\Domain\obj\Debug\net8.0\refint\Domain.dll
 C:\Users\Usuario\Desktop\Maracutaia\Pessoal\livraria-devweb2\LivrariaService\Domain\obj\Debug\net8.0\Domain.pdb
 C:\Users\Usuario\Desktop\Maracutaia\Pessoal\livraria-devweb2\LivrariaService\Domain\obj\Debug\net8.0\ref\Domain.dll
+C:\Programação\Projeto Dev Web\livraria-devweb2\LivrariaService\Domain\bin\Debug\net8.0\Domain.deps.json
+C:\Programação\Projeto Dev Web\livraria-devweb2\LivrariaService\Domain\bin\Debug\net8.0\Domain.dll
+C:\Programação\Projeto Dev Web\livraria-devweb2\LivrariaService\Domain\bin\Debug\net8.0\Domain.pdb
+C:\Programação\Projeto Dev Web\livraria-devweb2\LivrariaService\Domain\obj\Debug\net8.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Programação\Projeto Dev Web\livraria-devweb2\LivrariaService\Domain\obj\Debug\net8.0\Domain.AssemblyInfoInputs.cache
+C:\Programação\Projeto Dev Web\livraria-devweb2\LivrariaService\Domain\obj\Debug\net8.0\Domain.AssemblyInfo.cs
+C:\Programação\Projeto Dev Web\livraria-devweb2\LivrariaService\Domain\obj\Debug\net8.0\Domain.csproj.CoreCompileInputs.cache
+C:\Programação\Projeto Dev Web\livraria-devweb2\LivrariaService\Domain\obj\Debug\net8.0\Domain.sourcelink.json
+C:\Programação\Projeto Dev Web\livraria-devweb2\LivrariaService\Domain\obj\Debug\net8.0\Domain.dll
+C:\Programação\Projeto Dev Web\livraria-devweb2\LivrariaService\Domain\obj\Debug\net8.0\refint\Domain.dll
+C:\Programação\Projeto Dev Web\livraria-devweb2\LivrariaService\Domain\obj\Debug\net8.0\Domain.pdb
+C:\Programação\Projeto Dev Web\livraria-devweb2\LivrariaService\Domain\obj\Debug\net8.0\ref\Domain.dll

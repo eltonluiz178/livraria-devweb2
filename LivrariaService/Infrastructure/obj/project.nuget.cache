@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "1E3TXstBdpI=",
+  "dgSpecHash": "UV3C+wm2U2M=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Usuario\\Desktop\\Maracutaia\\Pessoal\\livraria-devweb2\\LivrariaService\\Infrastructure\\Infrastructure.csproj",
+  "projectFilePath": "C:\\Programação\\Projeto Dev Web\\livraria-devweb2\\LivrariaService\\Infrastructure\\Infrastructure.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Usuario\\.nuget\\packages\\dapper\\2.1.66\\dapper.2.1.66.nupkg.sha512"
+    "C:\\Users\\elton\\.nuget\\packages\\dapper\\2.1.66\\dapper.2.1.66.nupkg.sha512"
   ],
   "logs": []
 }

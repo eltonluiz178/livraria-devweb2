@@ -1,11 +1,13 @@
 ﻿using Application.Interfaces;
 using Domain.Model;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace LivrariaService.Controllers;
 
 [Route("clientes")]
 [ApiController]
+[Authorize]
 public class ClienteController : MainController
 {
     private readonly IClienteService _service;
