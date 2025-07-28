@@ -90,6 +90,18 @@
         }
       }
     },
+    "/clientes/id-cliente": {
+      "get": {
+        "tags": [
+          "Cliente"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/emprestimos": {
       "get": {
         "tags": [

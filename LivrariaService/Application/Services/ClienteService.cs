@@ -19,7 +19,7 @@ public class ClienteService : IClienteService
         {
             var resposta = await _repository.AdicionarClienteAsync(cliente);
 
-            if(resposta == false)
+            if (resposta == false)
             {
                 throw new Exception("Não foi possível adicionar o cliente, verifique os campos e tente novamente.");
             }
@@ -38,7 +38,7 @@ public class ClienteService : IClienteService
         {
             var cliente = await _repository.BuscarClientePorIdAsync(id);
 
-            if(cliente == null)
+            if (cliente == null)
             {
                 throw new Exception($"Não possível encontra o cliente com id {id}.");
             }
@@ -49,5 +49,24 @@ public class ClienteService : IClienteService
             throw e;
         }
 
+    }
+
+    public async Task<int> BuscarIdPorUsuario(string NomeUsuario)
+    {
+        try
+        {
+            var id = await _repository.BuscarIdPorUsuario(NomeUsuario);
+
+            if (id == null)
+            {
+                throw new Exception("Cliente não encontrado");
+            }
+
+            return id;
+        }
+        catch (Exception e)
+        {
+            throw e;
+        }
     }
 }

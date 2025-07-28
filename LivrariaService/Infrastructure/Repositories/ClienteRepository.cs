@@ -56,4 +56,13 @@ public class ClienteRepository : IClienteRepository
             throw new Exception("Houve um erro ao buscar o cliente.");
         }
     }
+
+    public async Task<int> BuscarIdPorUsuario(string NomeUsuario)
+    {
+        var sql = $"SELECT Id from Cliente Where NomeUsuario ='{NomeUsuario}'";
+
+        var id = await _connection.QueryFirstOrDefaultAsync<int>(sql);
+
+        return id;
+    }
 }

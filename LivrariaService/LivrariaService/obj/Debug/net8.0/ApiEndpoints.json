@@ -48,6 +48,16 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "LivrariaService.Controllers.ClienteController",
+    "Method": "BuscarIdPorUsuario",
+    "RelativePath": "clientes/id-cliente",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "LivrariaService.Controllers.EmprestimoController",
     "Method": "BuscarEmprestimosAsync",
     "RelativePath": "emprestimos",
