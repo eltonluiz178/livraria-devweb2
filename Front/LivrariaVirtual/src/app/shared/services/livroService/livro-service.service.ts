@@ -18,7 +18,6 @@ export class LivroServiceService {
   }
 
   constructor(private http: HttpClient) {
-    console.log('API URL:', this.getUrl());
   }
 
   obterLivros(): Observable<any>{

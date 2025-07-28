@@ -28,8 +28,6 @@ export class EmprestimoServiceService {
           'Authorization': `Bearer ${token}`,
           'accept': '*/*',
         });
-
-    console.log('API URL:', this.getUrl(), { headers});
    }
 
   obterEmprestimoPorLivro(id: number): Observable<any>{

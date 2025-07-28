@@ -8,6 +8,7 @@ import Swal from 'sweetalert2';
 import { EmprestimoServiceService } from '../../shared/services/emprestimoService/emprestimo-service.service';
 import { Emprestimo } from '../../shared/interfaces/emprestimo';
 import { ModalServiceService } from '../../shared/services/modal-service.service';
+import { ClienteService } from '../../shared/services/clienteService/cliente.service';
 
 @Component({
   selector: 'app-biblioteca',
@@ -16,15 +17,17 @@ import { ModalServiceService } from '../../shared/services/modal-service.service
   templateUrl: './biblioteca.component.html',
   styleUrl: './biblioteca.component.css'
 })
-export class BibliotecaComponent implements OnInit,OnChanges {
+export class BibliotecaComponent implements OnInit, OnChanges {
 
-  constructor(private livroService: LivroServiceService, private emprestimoService: EmprestimoServiceService,private modalService: ModalServiceService) {}
+  constructor(private livroService: LivroServiceService, private emprestimoService: EmprestimoServiceService, private modalService: ModalServiceService, private clienteService: ClienteService) { }
 
   @Input() livros: Livro[] = [];
   alteracao: { value: number } = { value: 0 };
-  estiloSection : string = "height: 83.6dvh;";
+  estiloSection: string = "height: 83.6dvh;";
+  idCliente: number = 0;
 
   ngOnInit(): void {
+    this.carregarCliente();
     this.exibirLivros();
   }
 
@@ -32,16 +35,27 @@ export class BibliotecaComponent implements OnInit,OnChanges {
     this.exibirLivros();
   }
 
-  exibirLivros(){
+    carregarCliente() {
+    this.clienteService.obterIdCliente().subscribe({
+      next: (response: any) => {
+        this.idCliente = response.id;
+        this.exibirLivros();
+      },
+      error: (err) => {
+        this.modalService.erro("Erro!", "Não foi possível carregar os dados do cliente.");
+      }
+    });
+  }
+
+  exibirLivros() {
     this.livroService.obterLivros().subscribe((response) => {
       this.livros = response.data;
       this.formatarSection();
     });
   }
 
-  formatarSection(){
-    if(this.livros.length <= 3 || this.livros == null)
-    {
+  formatarSection() {
+    if (this.livros.length <= 3 || this.livros == null) {
       this.estiloSection = "height: 83.6dvh;"
     }
 
@@ -50,10 +64,10 @@ export class BibliotecaComponent implements OnInit,OnChanges {
     }
   }
 
-  modalPegarLivro(livro: Livro){
+  modalPegarLivro(livro: Livro) {
     var emprestimo: RealizarEmprestimo = {
-      clienteId : 1,
-      livroId : livro.id
+      clienteId: this.idCliente,
+      livroId: livro.id
     };
 
 
@@ -70,7 +84,7 @@ export class BibliotecaComponent implements OnInit,OnChanges {
           next: (response: any) => {
             this.mudarAlteracao();
             this.exibirLivros();
-            this.modalService.sucesso("Sucesso!","Livro pego com sucesso.");
+            this.modalService.sucesso("Sucesso!", "Livro pego com sucesso.");
           },
           error: (err) => {
             Swal.fire('Erro!', err.error.errors?.[0] || 'Erro ao realizar empréstimo.', 'error');
@@ -80,7 +94,7 @@ export class BibliotecaComponent implements OnInit,OnChanges {
     });
   }
 
-  mudarAlteracao(){
+  mudarAlteracao() {
     this.alteracao = { value: this.alteracao.value + 1 };
   }
 }

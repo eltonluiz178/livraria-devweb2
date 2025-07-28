@@ -25,10 +25,7 @@ export class AppComponent implements OnInit {
       this.token = queryParams.get('tk');
 
       if (this.token) {
-        console.log('Token capturado:', this.token);
         this.storeToken(this.token);
-      } else {
-        console.error('Nenhum token fornecido na URL');
       }
     });
   }
