@@ -27,7 +27,6 @@ export class LoginComponent {
           headers: {
             'Content-Type': 'application/json',
           },
-          credentials: 'include',
           body: JSON.stringify({ NomeUsuario: this.nomeUsuario, Senha: this.senha }),
         });
 
