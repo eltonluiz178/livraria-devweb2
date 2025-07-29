@@ -2,6 +2,8 @@
 using Domain.Model;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using System.Security.Claims;
+using System.Threading.Tasks;
 
 namespace LivrariaService.Controllers;
 
@@ -45,5 +47,16 @@ public class ClienteController : MainController
             NotificarErro(e.Message);
             return CustomResponse();
         }
+    }
+
+    [HttpGet("id-cliente")]
+    public async Task<IActionResult> BuscarIdPorUsuario()
+    {
+        // Pega a claim "unique_name" do token JWT
+        var usuario = User.Claims.FirstOrDefault(c => c.Type == ClaimTypes.Name)?.Value;
+
+        var id = await _service.BuscarIdPorUsuario(usuario); ;
+
+        return Ok(new { Id = id });
     }
 }

@@ -15,8 +15,9 @@ export class LoginComponent {
   nomeUsuario: string = '';
   senha: string = '';
   errorMessage: string = '';
+  estiloSection: string = "height: 83.6dvh;";
 
-  constructor(private router: Router) {}
+  constructor(private router: Router) { }
 
   async onSubmit() {
     if (this.nomeUsuario && this.senha) {

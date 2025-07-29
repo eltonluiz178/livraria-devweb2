@@ -5,6 +5,7 @@ import { EmprestimoServiceService } from '../../shared/services/emprestimoServic
 import { LivroEmprestimo } from '../../shared/interfaces/livroEmprestimo';
 import { Livro } from '../../shared/interfaces/livro';
 import { ModalServiceService } from '../../shared/services/modal-service.service';
+import { ClienteService } from '../../shared/services/clienteService/cliente.service';
 
 @Component({
   selector: 'app-meus-livros',
@@ -13,14 +14,16 @@ import { ModalServiceService } from '../../shared/services/modal-service.service
   templateUrl: './meus-livros.component.html',
   styleUrl: './meus-livros.component.css'
 })
-export class MeusLivrosComponent implements OnInit,OnChanges {
+export class MeusLivrosComponent implements OnInit, OnChanges {
 
-  constructor(private emprestimoService: EmprestimoServiceService, private modalService: ModalServiceService) {}
+  constructor(private emprestimoService: EmprestimoServiceService, private modalService: ModalServiceService, private clienteService: ClienteService) { }
 
   @Input() livros: LivroEmprestimo[] = [];
-  estiloSection : string = "height: 83.6dvh;";
+  idCliente: number = 0; // ID do cliente, pode ser dinâmico dependendo da autenticação
+  estiloSection: string = "height: 83.6dvh;";
 
   ngOnInit(): void {
+    this.carregarCliente();
     this.exibirLivros();
   }
 
@@ -28,16 +31,27 @@ export class MeusLivrosComponent implements OnInit,OnChanges {
     this.exibirLivros();
   }
 
-  exibirLivros(){
-    this.emprestimoService.obterEmprestimoPorCliente(1).subscribe((response) => {
+  exibirLivros() {
+    this.emprestimoService.obterEmprestimoPorCliente(this.idCliente).subscribe((response) => {
       this.livros = response.data;
       this.formatarSection();
     });
   }
 
-  formatarSection(){
-    if(this.livros.length <= 3 || this.livros == null)
-    {
+  carregarCliente() {
+    this.clienteService.obterIdCliente().subscribe({
+      next: (response: any) => {
+        this.idCliente = response.id;
+        this.exibirLivros();
+      },
+      error: (err) => {
+        this.modalService.erro("Erro!", "Não foi possível carregar os dados do cliente.");
+      }
+    });
+  }
+
+  formatarSection() {
+    if (this.livros.length <= 3 || this.livros == null) {
       this.estiloSection = "height: 83.6dvh;"
     }
 
@@ -46,31 +60,31 @@ export class MeusLivrosComponent implements OnInit,OnChanges {
     }
   }
 
-  estenderEmprestimo(livro : Livro){
+  estenderEmprestimo(livro: Livro) {
     this.emprestimoService.obterEmprestimoPorLivro(livro.id).subscribe((response) => {
       const emprestimo: Emprestimo = response.data;
       this.emprestimoService.estenderEmprestimo(emprestimo.id).subscribe({
         next: (response: any) => {
           this.exibirLivros()
-          this.modalService.sucesso("Sucesso!","O empréstimo foi estendido com sucesso.");
+          this.modalService.sucesso("Sucesso!", "O empréstimo foi estendido com sucesso.");
         },
         error: (err) => {
-          this.modalService.erro("Erro!",err.error.errors[0])
+          this.modalService.erro("Erro!", err.error.errors[0])
         }
       })
     })
   }
 
-  devolverLivro(livro : Livro){
+  devolverLivro(livro: Livro) {
     this.emprestimoService.obterEmprestimoPorLivro(livro.id).subscribe((response) => {
       const emprestimo: Emprestimo = response.data;
       this.emprestimoService.desativarEmprestimo(emprestimo.id).subscribe({
         next: (response: any) => {
           this.exibirLivros()
-          this.modalService.sucesso("Sucesso!","O livro voi devolvido com sucesso.")
+          this.modalService.sucesso("Sucesso!", "O livro voi devolvido com sucesso.")
         },
         error: (err) => {
-          this.modalService.erro("Erro!",err.error.errors[0])
+          this.modalService.erro("Erro!", err.error.errors[0])
         }
       })
     })
