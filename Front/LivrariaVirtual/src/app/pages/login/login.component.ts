@@ -22,11 +22,12 @@ export class LoginComponent {
   async onSubmit() {
     if (this.nomeUsuario && this.senha) {
       try {
-        const response = await fetch(environment.apiUrl + '/api/auth/login', {
+        const response = await fetch(environment.apiUrl + '/api/Auth/login', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
           },
+          credentials: 'include',
           body: JSON.stringify({ NomeUsuario: this.nomeUsuario, Senha: this.senha }),
         });
 
