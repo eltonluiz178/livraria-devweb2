@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { Router } from '@angular/router';
+import { environment } from '../../../environments/environment.prod';
 
 @Component({
   selector: 'app-login',
@@ -20,7 +21,7 @@ export class LoginComponent {
   async onSubmit() {
     if (this.nomeUsuario && this.senha) {
       try {
-        const response = await fetch('https://localhost:7173/api/auth/login', {
+        const response = await fetch(environment.apiUrl + '/api/auth/login', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
